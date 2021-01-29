@@ -1,0 +1,67 @@
+#container {
+    background-image: url(todo.jpg) ;
+    text-align: center;
+    padding: 25%;
+}
+input{
+    background-color: rgb(28, 70, 87);
+    width: 50%;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+tr:hover:before{
+    background-color: rgb(2, 17, 24);
+    color: white;
+   font-weight: bold;
+}
+input:focus{
+    background-color: rgb(2, 17, 24);
+  }
+button{
+    background-color: rgb(28, 70, 87);
+    color: white;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(2, 17, 24);
+    color: white;
+   font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+}
+li{
+    list-style-type: none;
+}
+td{
+    color: rgb(28, 70, 87);;
+    width: 80%;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    border-bottom: 3px solid  rgb(28, 70, 87);
+}
+tr{
+    color: rgb(28, 70, 87);;
+    width: 80%;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.del{
+    margin-left: 200px;
+    border-radius: 20%;
+}
+.edit{
+    margin-left: 10px;
+    border-radius: 20%;
+}
+#box{
+    border: 5px solid  rgb(28, 70, 87);
+    margin: 30px;   
+}
+
